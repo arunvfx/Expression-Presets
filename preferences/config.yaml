@@ -1,0 +1,9 @@
+
+DB_ANIMATION: os.path.dirname(__file__) + '/data/data.json'
+DB_EXPRESSION: os.path.dirname(__file__) + '/data/expression_data.json'
+
+MENU_ANIMATION: os.path.dirname(__file__) + '/animation_menu.txt'
+MENU_EXPRESSION: os.path.dirname(__file__) + '/expression_menu.txt'
+
+KNOB_TYPES: os.path.dirname(__file__) + '/preferences/knob_types.yaml'
+

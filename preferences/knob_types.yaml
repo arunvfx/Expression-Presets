@@ -1,0 +1,18 @@
+Knobs:
+  operations: nuke.Enumeration_Knob('{}', 'Operations', ['Add', 'Minus', 'Multiply', 'Divide'])
+  Floating Point Slider: nuke.Double_Knob('{}','{}')
+  2d Position Knob: nuke.XY_Knob('{}','{}')
+  3d Position Knob: nuke.XYZ_Knob('{}','{}')
+  Width/Height Knob: nuke.WH_Knob('{}','{}')
+  UV Coordinate Knob: nuke.UV_Knob('{}','{}')
+  Integer Knob: nuke.Int_Knob('{}','{}')
+  divider: nuke.Divider('{}','{}')
+  RGB Color Knob: nuke.Color_Knob('{}','{}')
+  RGBA Color Knob: nuke.AColor_Knob('{}','{}')
+  Check Box: nuke.Boolean_Knob('{}','{}')
+  Python Script Button: nuke.PyScript_Knob('{}','{}', """{}""")
+  Pulldown Choice: nuke.Enumeration_Knob('{}','{}', {})
+
+Range: Floating Point Slider, RGB Color Knob, RGBA Color Knob
+Vector: 2d Position Knob, 3d Position Knob, Width/Height Knob, UV Coordinate Knob, Integer Knob, divider, Check Box
+Strings: Python Script Button, Pulldown Choice
