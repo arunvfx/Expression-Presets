@@ -4,4 +4,4 @@ Expression Presets tool for Nuke helps to Save expressions as preset and reuse t
 
 # Preview
 
-![image not found](https://[github.com/arunvfx/Expression-Presets/blob/master/preview.jpeg?raw=true)
+![image not found](https://github.com/arunvfx/Expression-Presets/blob/master/preview.jpeg?raw=true)
